@@ -46,4 +46,4 @@ Belgenin en önemli veya ilgili bilgilerini yakalayamayabilir, çünkü bir keli
 Bu basit yaklaşım, temel özetleme görevleri için iyi bir başlangıç noktası veya karmaşık metinler için daha doğru ve bilgilendirici özetler üretmek için daha gelişmiş yöntemlerin temeli olarak kullanılabilir. Önceki yanıtlarda bahsedilen makine öğrenimi veya derin öğrenme modellerini kullanan daha sofistike yaklaşımlar, daha karmaşık metinler için daha iyi sonuçlar üretme eğilimindedir.
 
 Excel'e özetlemelerin sonuçlarını nasıl aktarabiliriz? 
-Burada ürettiğimiz özetlerin özelliklkerini ve başarı metriklerini kaydetmek için python ile otomatik excel doldurma işlemleri yapıyoruz bunun için excelde bir tablo oluşturup ilgili boşukları python üzerinden dolduruyoruz lütfen bunun için <b>excel.py</b> dosyasını inceleyiniz.
+Burada ürettiğimiz özetlerin özelliklkerini ve başarı metriklerini kaydetmek için python ile otomatik excel doldurma işlemleri yapıyoruz bunun için excelde bir tablo oluşturup ilgili boşukları python üzerinden dolduruyoruz lütfen bunun için <a href="https://github.com/anilkus/TextSummarizationUsingTF/blob/main/excel.py">excel.py</a> dosyasını inceleyiniz.
