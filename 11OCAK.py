@@ -1,4 +1,3 @@
-
 import bs4 as bs
 import urllib.request
 import re
@@ -11,12 +10,11 @@ from smtplib import SMTP
 
 
 
-with open("C:/Users/LENOVO/Desktop/TEZ/Veri Ön İşleme/Abstracts/z_Anadolu Kliniği Tıp Bilimleri Dergisi/10.21673-anadoluklin.1218869-2831117.txt", 'r',encoding="utf-8") as text2:
+with open("Original_abstract_path.txt", 'r',encoding="utf-8") as text2:
     abstract=text2.read()
-with open("C:/Users/LENOVO/Desktop/TEZ/Veri Ön İşleme/İşlenecek Kısım/z_Anadolu Kliniği Tıp Bilimleri Dergisi/10.21673-anadoluklin.1218869-2831117.txt", 'r',encoding="utf-8") as text:
-    islenecek=text.read()
-    article_text=islenecek
-    #print(islenecek)
+with open("Reference_Text.txt", 'r',encoding="utf-8") as text:
+    article_text=text.read()
+   
    
 abstract=abstract.lower()
 abstract = re.sub(r'\([^()]*\d+[^()]*\)', '', abstract)
@@ -96,36 +94,8 @@ print("Özet Uzunluğu (Karakter): {}".format(len(summary)))
 özetuzunlugu = len(summary)
 print(len(abstract))
 orjinalozet=len(abstract)
-from rouge import Rouge
-ROUGE = Rouge()
 
-print(ROUGE.get_scores(summary, abstract))
-#print(abstract)
 
-'''
-ozet = summary
-with open("C:/Users/LENOVO/Desktop/TEZ/Veri Ön İşleme/Çalışmanın Özetleri/TF/z_Anadolu Kliniği Tıp Bilimleri Dergisi/10.21673-anadoluklin.1218869-2831117.txt", "w",encoding="utf-8") as file:
-    file.write(ozet)
-'''
-
-from openpyxl import load_workbook
-'''
-wb = load_workbook('C:/Users/LENOVO/Desktop/TEZ/Veri Ön İşleme/Sonuçlar/TF.xlsx')
-ws = wb['Sayfa1']
-yayın1 = "anadolu yeni"
-yayın2 = "2"
-recall = 0.48
-precision = 0.26
-ws.cell(row=102,column=3).value = yayın1
-ws.cell(row=102,column=4).value = yayın2
-ws.cell(row=102,column=5).value = gercekmetinuzunlugu
-ws.cell(row=102,column=6).value = özetuzunlugu
-ws.cell(row=102,column=8).value = orjinalozet
-ws.cell(row=102,column=9).value = recall
-ws.cell(row=102,column=10).value = precision
-wb.save('C:/Users/LENOVO/Desktop/TEZ/Veri Ön İşleme/Sonuçlar/TF.xlsx')
-
-'''
 
 
 
