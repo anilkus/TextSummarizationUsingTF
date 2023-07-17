@@ -21,7 +21,7 @@ It may not capture the most important or relevant information in the document, a
 Despite its simplicity, this approach can be a good starting point for simple summarization tasks or as a baseline for more advanced methods. More sophisticated approaches, such as using machine learning or deep learning models, like those mentioned in previous responses, are likely to produce more accurate and informative summaries for complex texts.
 
 How to save all we have done in Excel ? 
-We are performing automatic Excel filling operations using Python to record the characteristics and success metrics of the summaries generated here. For this purpose, we have created a table in Excel, and we are populating the relevant cells using Python. Please review the excel.py file for this process.
+We are performing automatic Excel filling operations using Python to record the characteristics and success metrics of the summaries generated here. For this purpose, we have created a table in Excel, and we are populating the relevant cells using Python. Please review the <a href="https://github.com/anilkus/TextSummarizationUsingTF/blob/main/excel.py">excel.py</a> file for this process.
 
 --------------------------------------------------------------------------------------------------------------
 
