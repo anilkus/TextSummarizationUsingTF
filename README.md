@@ -21,6 +21,7 @@ It may not capture the most important or relevant information in the document, a
 Despite its simplicity, this approach can be a good starting point for simple summarization tasks or as a baseline for more advanced methods. More sophisticated approaches, such as using machine learning or deep learning models, like those mentioned in previous responses, are likely to produce more accurate and informative summaries for complex texts.
 
 How to save all we have done in Excel ? 
+
 We are performing automatic Excel filling operations using Python to record the characteristics and success metrics of the summaries generated here. For this purpose, we have created a table in Excel, and we are populating the relevant cells using Python. Please review the <a href="https://github.com/anilkus/TextSummarizationUsingTF/blob/main/excel.py">excel.py</a> file for this process.
 
 --------------------------------------------------------------------------------------------------------------
@@ -46,4 +47,5 @@ Belgenin en önemli veya ilgili bilgilerini yakalayamayabilir, çünkü bir keli
 Bu basit yaklaşım, temel özetleme görevleri için iyi bir başlangıç noktası veya karmaşık metinler için daha doğru ve bilgilendirici özetler üretmek için daha gelişmiş yöntemlerin temeli olarak kullanılabilir. Önceki yanıtlarda bahsedilen makine öğrenimi veya derin öğrenme modellerini kullanan daha sofistike yaklaşımlar, daha karmaşık metinler için daha iyi sonuçlar üretme eğilimindedir.
 
 Excel'e özetlemelerin sonuçlarını nasıl aktarabiliriz? 
+
 Burada ürettiğimiz özetlerin özelliklkerini ve başarı metriklerini kaydetmek için python ile otomatik excel doldurma işlemleri yapıyoruz bunun için excelde bir tablo oluşturup ilgili boşukları python üzerinden dolduruyoruz lütfen bunun için <a href="https://github.com/anilkus/TextSummarizationUsingTF/blob/main/excel.py">excel.py</a> dosyasını inceleyiniz.
